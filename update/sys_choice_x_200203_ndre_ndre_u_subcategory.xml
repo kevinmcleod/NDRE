@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_subcategory" table="x_200203_ndre_ndre" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>design maintenance</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connection Point</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62e09d1fdb1123007c3e9235ca9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:08:25</sys_updated_on>
+            <value>Connection Point</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data discrepancy</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Correction (2 Days)</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:07:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26a09d1fdb1123007c3e9235ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:07:19</sys_updated_on>
+            <value>Data Correction (2 Days)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>asset change</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FFA FDC</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:05:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0250dd1fdb1123007c3e9235ca96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:05:55</sys_updated_on>
+            <value>FFA FDC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>nmi request</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NECF</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:09:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e111119fdb1123007c3e9235ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:09:09</sys_updated_on>
+            <value>NECF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data discrepancy</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Correction (30 Days)</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:07:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22a0dd1fdb1123007c3e9235ca961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:07:19</sys_updated_on>
+            <value>Data Correction (30 Days)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>nmi request</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FFA Network Update</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:09:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2111119fdb1123007c3e9235ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:09:09</sys_updated_on>
+            <value>FFA Network Update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>design maintenance</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network Correct</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aee09d1fdb1123007c3e9235ca9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:08:25</sys_updated_on>
+            <value>Network Correct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>asset change</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paper FDC</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:05:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0250dd1fdb1123007c3e9235ca96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:05:55</sys_updated_on>
+            <value>Paper FDC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data discrepancy</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inspection Data</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:07:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ea0dd1fdb1123007c3e9235ca961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:07:19</sys_updated_on>
+            <value>Inspection Data</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subcategory</element>
+            <name>x_200203_ndre_ndre</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 06:05:55</sys_created_on>
+            <sys_id>8a50dd1fdb1123007c3e9235ca96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subcategory</sys_name>
+            <sys_package display_value="NDRE" source="x_200203_ndre">28d20a96dbd123007c3e9235ca961968</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NDRE">28d20a96dbd123007c3e9235ca961968</sys_scope>
+            <sys_update_name>sys_choice_x_200203_ndre_ndre_u_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 06:05:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

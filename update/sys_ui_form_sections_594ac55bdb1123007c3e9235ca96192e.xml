@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="594ac55bdb1123007c3e9235ca96192e" sys_domain="global" table="x_200203_ndre_ndre" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>554ac55bdb1123007c3e9235ca961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200203_ndre_ndre" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">594ac55bdb1123007c3e9235ca96192e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">a7e8061edbd123007c3e9235ca9619ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>154a095bdb1123007c3e9235ca961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200203_ndre_ndre" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">594ac55bdb1123007c3e9235ca96192e</sys_ui_form>
+            <sys_ui_section caption="Description" display_value="Description" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">954ac55bdb1123007c3e9235ca96192b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>154a095bdb1123007c3e9235ca96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200203_ndre_ndre" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">594ac55bdb1123007c3e9235ca96192e</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">954ac55bdb1123007c3e9235ca96192c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d4a095bdb1123007c3e9235ca96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200203_ndre_ndre" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">594ac55bdb1123007c3e9235ca96192e</sys_ui_form>
+            <sys_ui_section caption="Email" display_value="Email" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">114ac55bdb1123007c3e9235ca96192d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a94a095bdb1123007c3e9235ca961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200203_ndre_ndre" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">594ac55bdb1123007c3e9235ca96192e</sys_ui_form>
+            <sys_ui_section caption="System Updates" display_value="System Updates" name="x_200203_ndre_ndre" sys_domain="global" view="Default view">994ac55bdb1123007c3e9235ca96192d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_200203_ndre_ndre</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>594ac55bdb1123007c3e9235ca96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_200203_ndre_ndre</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NDRE" source="x_200203_ndre">28d20a96dbd123007c3e9235ca961968</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NDRE">28d20a96dbd123007c3e9235ca961968</sys_scope>
+            <sys_update_name>sys_ui_form_sections_594ac55bdb1123007c3e9235ca96192e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

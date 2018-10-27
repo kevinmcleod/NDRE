@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_desaltname" label="Design Alternative Name" language="en" table="x_200203_ndre_ndre">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_desaltname</element>
+            <help/>
+            <hint/>
+            <label>Design Alternative Name</label>
+            <language>en</language>
+            <name>x_200203_ndre_ndre</name>
+            <plural>Design Alternative Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-27 05:39:23</sys_created_on>
+            <sys_id>a14a095bdb1123007c3e9235ca96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Design Alternative Name</sys_name>
+            <sys_package display_value="NDRE" source="x_200203_ndre">28d20a96dbd123007c3e9235ca961968</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NDRE">28d20a96dbd123007c3e9235ca961968</sys_scope>
+            <sys_update_name>sys_documentation_x_200203_ndre_ndre_u_desaltname_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-27 05:39:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

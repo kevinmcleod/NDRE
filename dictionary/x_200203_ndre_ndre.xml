@@ -1,3 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="NDRE" max_length="40" name="x_200203_ndre_ndre" type="collection"/>
+    <element audit="true" extends="task" label="NDRE" max_length="40" name="x_200203_ndre_ndre" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Asset Change" sequence="0" value="asset change"/>
+                <element inactive_on_update="false" label="Conflict Resolution" sequence="1" value="conflict resolution"/>
+                <element inactive_on_update="false" label="Data Discrepancy" sequence="2" value="data discrepancy"/>
+                <element inactive_on_update="false" label="Data Request" sequence="3" value="data request"/>
+                <element inactive_on_update="false" label="Design Maintenance" sequence="4" value="design maintenance"/>
+                <element inactive_on_update="false" label="NMI Request" sequence="5" value="nmi request"/>
+                <element inactive_on_update="false" label="Schematic Update" sequence="6" value="schematic update"/>
+            </choice>
+        </element>
+        <element label="Connect Updated" max_length="40" name="u_connectupdate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Design Alternative Name" max_length="40" name="u_desaltname" type="string"/>
+        <element label="Ellipse Updated" max_length="40" name="u_eelipseupdate" type="boolean"/>
+        <element default="true" label="Email to Requestor?" max_length="40" name="u_emailrequestor" type="boolean"/>
+        <element label="Email to Watch List" max_length="40" name="u_emailwatchlist" type="boolean"/>
+        <element label="Time Taken" max_length="40" name="u_glide_time_8" type="glide_time"/>
+        <element choice="1" label="On Hold Reason" max_length="40" name="u_hold_reason" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Requestor" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Awaiting Information" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Awaiting Problem" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Include Attachments?" max_length="40" name="u_includeattachments" type="boolean"/>
+        <element choice="1" label="Progress" max_length="40" name="u_progress" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Smallwolrd Update Required" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Schematic Update Required" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Connect Update Required" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Ellipse Update Required" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Region" mandatory="true" max_length="40" name="u_region" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Various" sequence="0" value="various"/>
+                <element inactive_on_update="false" label="Tropical North" sequence="1" value="tropical north"/>
+                <element inactive_on_update="false" label="Herbert" sequence="2" value="herbert"/>
+                <element inactive_on_update="false" label="Pioneer" sequence="3" value="pioneer"/>
+                <element inactive_on_update="false" label="Fitzroy" sequence="4" value="fitzroy"/>
+                <element inactive_on_update="false" label="Fraser / Burnett" sequence="5" value="fraser / burnett"/>
+                <element inactive_on_update="false" label="Greater Downs" sequence="6" value="greater downs"/>
+            </choice>
+        </element>
+        <element label="Requestor" mandatory="true" max_length="32" name="u_requestor" reference="sys_user" type="reference"/>
+        <element label="Schematic Updated?" max_length="40" name="u_schemupdate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Schematic Update Details" max_length="40" name="u_schemupdatedetails" type="string"/>
+        <element label="Smallworld Updated?" max_length="40" name="u_smwupdate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_category" dependent_on_field="u_category" label="Sub Category" max_length="40" name="u_subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="design maintenance" inactive_on_update="false" label="Connection Point" sequence="0" value="Connection Point"/>
+                <element dependent_value="data discrepancy" inactive_on_update="false" label="Data Correction (2 Days)" sequence="0" value="Data Correction (2 Days)"/>
+                <element dependent_value="asset change" inactive_on_update="false" label="FFA FDC" sequence="0" value="FFA FDC"/>
+                <element dependent_value="nmi request" inactive_on_update="false" label="NECF" sequence="0" value="NECF"/>
+                <element dependent_value="data discrepancy" inactive_on_update="false" label="Data Correction (30 Days)" sequence="1" value="Data Correction (30 Days)"/>
+                <element dependent_value="nmi request" inactive_on_update="false" label="FFA Network Update" sequence="1" value="FFA Network Update"/>
+                <element dependent_value="design maintenance" inactive_on_update="false" label="Network Correct" sequence="1" value="Network Correct"/>
+                <element dependent_value="asset change" inactive_on_update="false" label="Paper FDC" sequence="1" value="Paper FDC"/>
+                <element dependent_value="data discrepancy" inactive_on_update="false" label="Inspection Data" sequence="2" value="Inspection Data"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="JCND Work Order" max_length="40" name="u_wonumber" type="string"/>
+    </element>
 </database>
